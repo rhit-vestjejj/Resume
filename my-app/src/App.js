@@ -195,7 +195,14 @@ and Dutch, and skilled at navigating diverse cultural environments. Seeking a su
             <h2><a href = "https://github.com/rhit-vestjejj/Resume" style = {{
               fontWeight: "normal",
             }}>Resume</a></h2>
-            <p className = "projectText">My resume and where I cna keep all my different projects that I have done</p>
+            <p className = "projectText">My resume and where I can keep all my different projects that I have done</p>
+            <br />
+            <hr />
+            <div className = "webscrape publicBoxProject">Public</div>
+            <h2><a href = "https://github.com/rhit-vestjejj/Resume" style = {{
+              fontWeight: "normal",
+            }}>WebScraping</a></h2>
+            <p className = "projectText">My web scraping projects that include practice and a working job scraper for internships</p>
             <br />
             <hr />
           </div>
