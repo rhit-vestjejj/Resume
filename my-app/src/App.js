@@ -1,6 +1,5 @@
 import './App.css';
 import { useState } from 'react';
-
 function App() {
   const [page, setPage] = useState(0);
 
@@ -12,31 +11,35 @@ function App() {
     return (
       <div>
         <NavBar />
-        <div className = "overview">
-          <div className = "overviewCollum">
-            <img src = "images/logo.png" alt = "mainLogo" id = "mainLogo"></img>
+        <div className = "educationBox aboutBox aboutBox3Collum">
+            <div className = "mainLogoSmall">
+              <img src = "images/logo.png" alt = "mainLogo" id = "mainLogo"></img>
+            </div>
             <br />
-            <h1 id = "nameHeader">Jean-Paul Vestjens</h1>
-            <p id = "aboutMe"> I am a globally-minded Computer Science student with experience living on three continents, fluent in English 
-and Dutch, and skilled at navigating diverse cultural environments. Seeking a summer internship to apply technical skills in software development.</p>
+            <div className = "aboutSmallText">
+              <h1 id = "nameHeader">Jean-Paul Vestjens</h1>
+              <p id = "aboutMe"> I am a globally-minded Computer Science student with experience living on three continents, fluent in English and Dutch, and skilled at navigating diverse cultural environments. Seeking a summer internship to apply technical skills in software development.</p>
+            </div>
+        </div>
+        <div className = "overview mains">
+          <div>
+
           </div>
           <div className = "overviewCollum">
             <div className = "projectExample">
-              <a href = "https://github.com/rhit-vestjejj/React">React</a>
-              <p class = "projectExampleText">Practicing React</p>
-              <div className = "publicBoxOverview">
-                Public
-              </div>
+              <a href = "https://github.com/rhit-vestjejj/PokerHandPrediction">PokerHandPrediction</a>
+              <div className = "publicBoxOverview">Public</div>
+              <p class = "projectExampleText">Predicts what hand you have or someone else has in poker based on what 5 cards are showing</p>
             </div>
             <div className = "projectExample">
-            <a href = "https://github.com/rhit-vestjejj/Resume">Resume</a>
+              <a href = "https://github.com/rhit-vestjejj/Resume">Resume</a>
+              <div className = "publicBoxOverview">Public</div>
               <p class = "projectExampleText">My resume and where I can keep all of the different project that I have done</p>  
-              <div className = "publicBoxOverview">Public</div>
             </div>
             <div className = "projectExample">
-            <a href = "https://github.com/rhit-vestjejj/All-Projects">All-Projects</a>
-              <p class = "projectExampleText">All my project in one place</p>  
+              <a href = "https://github.com/rhit-vestjejj/All-Projects">All-Projects</a>
               <div className = "publicBoxOverview">Public</div>
+              <p class = "projectExampleText">All my project in one place</p>  
             </div>
           </div>
           <div className = "overviewCollum">
@@ -84,12 +87,19 @@ and Dutch, and skilled at navigating diverse cultural environments. Seeking a su
     return (
       <div>
         <NavBar />
-        <div className = "education">
-          <div className = "educationBox">
-            <img src = "images/logo.png" alt = "mainLogo" id = "mainLogo"></img>
+        <div className = "educationBox aboutBox aboutBox3Collum">
+            <div className = "mainLogoSmall">
+              <img src = "images/logo.png" alt = "mainLogo" id = "mainLogo"></img>
+            </div>
             <br />
-            <h1 id = "nameHeader">Jean-Paul Vestjens</h1>
-            <p id = "aboutMe"> I am a globally-minded Computer Science student with experience living on three continents, fluent in English and Dutch, and skilled at navigating diverse cultural environments. Seeking a summer internship to apply technical skills in software development.</p>
+            <div className = "aboutSmallText">
+              <h1 id = "nameHeader">Jean-Paul Vestjens</h1>
+              <p id = "aboutMe"> I am a globally-minded Computer Science student with experience living on three continents, fluent in English and Dutch, and skilled at navigating diverse cultural environments. Seeking a summer internship to apply technical skills in software development.</p>
+            </div>
+        </div>
+        <div className = "education mains">
+          <div>
+
           </div>
           <div className = "educationBox educationBoxText">
             <h1>College</h1>
@@ -130,12 +140,19 @@ and Dutch, and skilled at navigating diverse cultural environments. Seeking a su
     return (
       <div>
         <NavBar />
-        <div className = "experience">
-          <div className = "experienceBox">
-            <img src = "images/logo.png" alt = "mainLogo" id = "mainLogo"></img>
+        <div className = "educationBox aboutBox aboutBox3Collum">
+            <div className = "mainLogoSmall">
+              <img src = "images/logo.png" alt = "mainLogo" id = "mainLogo"></img>
+            </div>
             <br />
-            <h1 id = "nameHeader">Jean-Paul Vestjens</h1>
-            <p id = "aboutMe"> I am a globally-minded Computer Science student with experience living on three continents, fluent in English and Dutch, and skilled at navigating diverse cultural environments. Seeking a summer internship to apply technical skills in software development.</p>
+            <div className = "aboutSmallText">
+              <h1 id = "nameHeader">Jean-Paul Vestjens</h1>
+              <p id = "aboutMe"> I am a globally-minded Computer Science student with experience living on three continents, fluent in English and Dutch, and skilled at navigating diverse cultural environments. Seeking a summer internship to apply technical skills in software development.</p>
+            </div>
+        </div>
+        <div className = "experience mains">
+          <div>
+
           </div>
           <div className = "experienceBox">
             <h1>Computer Science Experience</h1>
@@ -168,12 +185,19 @@ and Dutch, and skilled at navigating diverse cultural environments. Seeking a su
     return (
       <div>
         <NavBar />
-        <div className = "project">
-          <div className = "projectBox">
-            <img src = "images/logo.png" alt = "mainLogo" id = "mainLogo"></img>
+        <div className = "educationBox aboutBox aboutBox3Collum">
+            <div className = "mainLogoSmall">
+              <img src = "images/logo.png" alt = "mainLogo" id = "mainLogo"></img>
+            </div>
             <br />
-            <h1 id = "nameHeader">Jean-Paul Vestjens</h1>
-            <p id = "aboutMe"> I am a globally-minded Computer Science student with experience living on three continents, fluent in English and Dutch, and skilled at navigating diverse cultural environments. Seeking a summer internship to apply technical skills in software development.</p>
+            <div className = "aboutSmallText">
+              <h1 id = "nameHeader">Jean-Paul Vestjens</h1>
+              <p id = "aboutMe"> I am a globally-minded Computer Science student with experience living on three continents, fluent in English and Dutch, and skilled at navigating diverse cultural environments. Seeking a summer internship to apply technical skills in software development.</p>
+            </div>
+        </div>
+        <div className = "project mains">
+          <div>
+
           </div>
           <div className = "projectBox">
             <hr />
@@ -191,18 +215,32 @@ and Dutch, and skilled at navigating diverse cultural environments. Seeking a su
             <p className = "projectText">All my projects in one place</p>
             <br />
             <hr />
-            <div className = "resume publicBoxProject">Public</div>
-            <h2><a href = "https://github.com/rhit-vestjejj/Resume" style = {{
-              fontWeight: "normal",
-            }}>Resume</a></h2>
-            <p className = "projectText">My resume and where I can keep all my different projects that I have done</p>
-            <br />
-            <hr />
             <div className = "webscrape publicBoxProject">Public</div>
             <h2><a href = "https://github.com/rhit-vestjejj/Resume" style = {{
               fontWeight: "normal",
             }}>WebScraping</a></h2>
             <p className = "projectText">My web scraping projects that include practice and a working job scraper for internships</p>
+            <br />
+            <hr />
+            <div className = "poker publicBoxProject">Public</div>
+            <h2><a href = "https://github.com/rhit-vestjejj/PokerHandPrediction" style = {{
+              fontWeight: "normal",
+            }}>PokerHandPrediction</a></h2>
+            <p className = "projectText">Predicts what hand you have or someone else has in poker based on what 5 cards are showing</p>
+            <br />
+            <hr />
+            <div className = "toDoIstClone publicBoxProject">Public</div>
+            <h2><a href = "https://github.com/rhit-vestjejj/toDoIstClone" style = {{
+              fontWeight: "normal",
+            }}>toDoIstClone</a></h2>
+            <p className = "projectText">toDoIst clone</p>
+            <br />
+            <hr />
+            <div className = "resume publicBoxProject">Public</div>
+            <h2><a href = "https://github.com/rhit-vestjejj/Resume" style = {{
+              fontWeight: "normal",
+            }}>Resume</a></h2>
+            <p className = "projectText">My resume and where I can keep all my different projects that I have done</p>
             <br />
             <hr />
           </div>
@@ -215,12 +253,19 @@ and Dutch, and skilled at navigating diverse cultural environments. Seeking a su
       return (
         <div>
           <NavBar />
-          <div className = "contact">
-            <div className = "contactBox">
+          <div className = "educationBox aboutBox aboutBox3Collum">
+            <div className = "mainLogoSmall">
               <img src = "images/logo.png" alt = "mainLogo" id = "mainLogo"></img>
-              <br />
+            </div>
+            <br />
+            <div className = "aboutSmallText">
               <h1 id = "nameHeader">Jean-Paul Vestjens</h1>
               <p id = "aboutMe"> I am a globally-minded Computer Science student with experience living on three continents, fluent in English and Dutch, and skilled at navigating diverse cultural environments. Seeking a summer internship to apply technical skills in software development.</p>
+            </div>
+          </div>
+          <div className = "contact mains">
+            <div>
+
             </div>
             <div className = "contactBox">
               <div className = "infoBox">

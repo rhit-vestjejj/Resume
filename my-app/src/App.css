@@ -1,297 +1,644 @@
-body {
-  background-color: #0d1117;
+/* 780px */
+@media (min-width: 800px){
+
+  body {
+    background-color: #0d1117;
+  }
+
+  .app {
+    font-family: ui-monospace, SFMono-Regular, SF Mono, Consolas, Liberation Mono, Menlo, monospace;
+  }
+
+  .skillsTab {
+    color: #9198a1;
+  }
+
+  .mains {
+    margin-top: 100px !important;
+  }
+
+  .aboutBox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 23%;
+    margin-left: 90px;
+    height: 100vh;
+    z-index: 10;
+    margin-top: 100px;
+  }
+
+  .aboutBox3Collum {
+    width: 22.63683555% !important;
+  }
+
+  .projectExample {
+    display: flex;
+    height: 90px;
+    margin-left: -6%;
+    border: 1px solid #9198a1;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 25px;
+    flex-direction: column;
+    margin-right: 6%;
+  }
+
+  .projectExampleText {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #9198a1;
+  }
+
+  .publicBoxOverview {
+    margin-top: -20px;
+    position: relative;
+    display: flex;
+    border: 1px solid #9198a1;
+    height: 16px;
+    font-size: 12px;
+    color: #9198a1;
+    margin-left: auto;
+    width: 40px;
+    border-radius: 15px;
+    justify-content: center;
+    -webkit-border-radius: 15px;
+  }
+
+  .toDoIstClone {
+    margin-left: 150px;
+  }
+
+  .react {
+    margin-left: 70px;
+  }
+
+  .allProjects {
+    margin-left: 134px;
+  }
+
+  .resume {
+    margin-left: 95px;
+  }
+
+  .webscrape{
+    margin-left: 154px;
+  }
+
+  .poker {
+    margin-left: 234px;
+  }
+
+  .projectText {
+    color: #9198a1;
+  }
+
+  .publicBoxProject {
+    position: absolute;
+    margin-top: 17px;
+    display: flex;
+    border: 1px solid #9198a1;
+    height: 21px;
+    font-size: 15px;
+    color: #9198a1;
+    width: 55px;
+    border-radius: 15px;
+    justify-content: center;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    z-index: -1;
+  }
+
+  .overview {
+    font-weight:lighter !important;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-left: 90px;
+    margin-top: 25px;
+    margin-right: 90px;
+    align-items: start;
+  }
+
+  .projectBox {
+    padding: 25px;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    margin-left: 90px;
+    margin-top: 25px;
+    margin-right: 90px;
+  }
+
+  .experienceBox {
+    padding: 25px;
+    color: #9198a1;
+  }
+
+  .experience {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    margin-left: 90px;
+    margin-top: 25px;
+    margin-right: 90px;
+  }
+
+  .contactBox {
+    padding: 25px;
+  }
+
+  .infoBox {
+    border: 1px solid #9198a1;
+    border-radius: 5px;
+    padding: 15px;
+    color: #9198a1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-left: 90px;
+    margin-top: 25px;
+    margin-right: 90px;
+  }
+
+  .educationBox {
+    padding: 25px;
+  }
+
+  .educationBoxText {
+    color: #9198a1 !important;
+  }
+
+  .education {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    margin-left: 90px;
+    margin-top: 25px;
+    margin-right: 90px;
+  }
+
+  #nameHeader {
+    font-size: 22px;
+    font-weight: normal;
+    color:#80868f !important;
+  }
+
+  #aboutMe {
+    color: #80868f !important;
+  }
+
+  a:link, a:visited, a:hover, a:active {
+    color: #4493f8;
+    text-decoration: none;
+  }
+
+
+  #mainLogo {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  .overviewCollum {
+    width: 100%;
+    min-width: 0;
+    margin-top: 60px;
+  }
+
+  hr {
+    border-color: #9198a1;
+  }
+
+  .education {
+    color: white;
+    font-weight:lighter !important;
+  }
+
+  .experience {
+    color: white;
+    font-weight:lighter !important;
+  }
+
+  .project {
+    color: white;
+    font-weight:lighter !important;
+  }
+
+  .contact {
+    color: white;
+    font-weight:lighter !important;
+  }
+
+  #miniLogo {
+    margin-left: auto;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 15px;
+    height: 40px;
+    width: auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  .navBtn {
+    display: flex;
+    height: 35px;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+    margin-top: 65px;
+    margin-right: 20x;
+    margin-left: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: black;
+    color: white;
+    border-top: 0px solid black;
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+    border-bottom: 0px solid black;
+  }
+
+  .active {
+    font-weight: bold;
+    border-bottom: 3px solid #f78166 !important;
+  }
+
+  .leftMost {
+    margin-left: 20px;
+  }
+
+  #navName {
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 22.875px;
+    font-size: 90%;
+    font-weight: bold;
+  }
+
+  #gitLogo {
+    height: 31.5px;
+    width: auto;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 28.5px;
+  }
+
+  .NavBar {
+    display: flex;
+    position: fixed;
+    margin-top: -100px !important;
+    margin-bottom: 100px !important;
+    width: 100%;
+    height: 100px;
+    background-color: black !important;
+    color: white;
+    border-bottom: 2px solid #3d444d;
+  }
 }
 
-.app {
-  font-family: ui-monospace, SFMono-Regular, SF Mono, Consolas, Liberation Mono, Menlo, monospace;
+@media (max-width: 800px){
+  body {
+    background-color: #0d1117;
+  }
+
+  .app {
+    font-family: ui-monospace, SFMono-Regular, SF Mono, Consolas, Liberation Mono, Menlo, monospace;
+  }
+
+  .skillsTab {
+    color: #9198a1;
+  }
+
+
+
+  .aboutBox {
+    display: grid;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    margin-top: 100px;
+    grid-template-columns: 1fr 0 1fr;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    gap: 5%;
+  }
+
+  .aboutSmallText {
+    align-items: center;
+  }
+
+  .projectExample {
+    display: flex;
+    height: 90px;
+    border: 1px solid #9198a1;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 25px;
+    flex-direction: column;
+  }
+
+  .projectExampleText {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #9198a1;
+  }
+
+  .publicBoxOverview {
+    margin-top: -20px;
+    position: relative;
+    display: flex;
+    border: 1px solid #9198a1;
+    height: 16px;
+    font-size: 12px;
+    color: #9198a1;
+    margin-left: auto;
+    width: 40px;
+    border-radius: 15px;
+    justify-content: center;
+    -webkit-border-radius: 15px;
+  }
+
+  .toDoIstClone {
+    margin-left: 150px;
+  }
+
+  .react {
+    margin-left: 70px;
+  }
+
+  .allProjects {
+    margin-left: 134px;
+  }
+
+  .resume {
+    margin-left: 95px;
+  }
+
+  .webscrape{
+    margin-left: 154px;
+  }
+
+  .projectText {
+    color: #9198a1;
+  }
+
+  .publicBoxProject {
+    position: absolute;
+    margin-top: 17px;
+    display: flex;
+    border: 1px solid #9198a1;
+    height: 21px;
+    font-size: 15px;
+    color: #9198a1;
+    width: 55px;
+    border-radius: 15px;
+    justify-content: center;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    z-index: -5;
+  }
+
+  .overview {
+    font-weight:lighter !important;
+    display: grid;
+    margin-left: 90px;
+    margin-right: 90px;
+    align-items: start;
+  }
+
+  .projectBox {
+    padding: 25px;
+  }
+
+  .project {
+    display: grid;
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
+  .experienceBox {
+    padding: 25px;
+    color: #9198a1;
+  }
+
+  .experience {
+    display: grid;
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
+  .contactBox {
+    padding: 25px;
+  }
+
+  .infoBox {
+    border: 1px solid #9198a1;
+    border-radius: 5px;
+    padding: 15px;
+    color: #9198a1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .contact {
+    display: grid;
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
+  .educationBox {
+    padding: 25px;
+  }
+
+  .educationBoxText {
+    color: #9198a1 !important;
+  }
+
+  .education {
+    display: grid;
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
+  #nameHeader {
+    font-size: 22px;
+    font-weight: normal;
+    color:#80868f !important;
+  }
+
+  #aboutMe {
+    color: #80868f !important;
+  }
+
+  a:link, a:visited, a:hover, a:active {
+    color: #4493f8;
+    text-decoration: none;
+  }
+
+  .mainLogoSmall {
+    text-align: center;
+  }
+
+  #mainLogo {
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  .overviewCollum {
+    width: 100%;
+    min-width: 0;
+  }
+
+  hr {
+    border-color: #9198a1;
+  }
+
+  .education {
+    color: white;
+    font-weight:lighter !important;
+  }
+
+  .experience {
+    color: white;
+    font-weight:lighter !important;
+  }
+
+  .project {
+    color: white;
+    font-weight:lighter !important;
+  }
+
+  .contact {
+    color: white;
+    font-weight:lighter !important;
+  }
+
+  #miniLogo {
+    margin-left: auto;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 15px;
+    height: 40px;
+    width: auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  .navBtn {
+    display: flex;
+    height: 35px;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+    margin-top: 65px;
+    margin-right: 20x;
+    margin-left: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: black;
+    color: white;
+    border-top: 0px solid black;
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+    border-bottom: 0px solid black;
+  }
+
+  .active {
+    font-weight: bold;
+    border-bottom: 3px solid #f78166 !important;
+  }
+
+  .leftMost {
+    margin-left: 20px;
+  }
+
+  #navName {
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 22.875px;
+    font-size: 90%;
+    font-weight: bold;
+  }
+
+  #gitLogo {
+    height: 31.5px;
+    width: auto;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 28.5px;
+  }
+
+  .NavBar {
+    display: flex;
+    position: fixed;
+    margin-top: -100px !important;
+    margin-bottom: 100px !important;
+    width: 100%;
+    height: 100px;
+    background-color: black !important;
+    color: white;
+    border-bottom: 2px solid #3d444d;
+    z-index: 10;
+  }
+
 }
 
-.skillsTab {
-  color: #9198a1;
+@media (max-width: 650px){
+  .aboutSmallText > p {
+    font-size: 10px;
+  }
+
+  .aboutSmallText > h1 {
+    font-size: 15px;
+  }
 }
 
-.projectExampleText {
-  margin-top: 5px;
-  font-size: 12px;
-  color: #9198a1;
-}
-
-.publicBoxOverview {
-  display: flex;
-  position: absolute;
-  border: 1px solid #9198a1;
-  height: 16px;
-  font-size: 12px;
-  color: #9198a1;
-  margin-left: 350px;
-  width: 40px;
-  border-radius: 15px;
-  justify-content: center;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-}
-
-.react {
-  margin-left: 70px;
-}
-
-.allProjects {
-  margin-left: 134px;
-}
-
-.resume {
-  margin-left: 95px;
-}
-
-.webscrape{
-  margin-left: 154px;
-}
-
-.projectText {
-  color: #9198a1;
-}
-
-.publicBoxProject {
-  display: flex;
-  position: absolute;
-  border: 1px solid #9198a1;
-  height: 21px;
-  font-size: 15px;
-  color: #9198a1;
-  margin-top: 19px;
-  width: 55px;
-  border-radius: 15px;
-  justify-content: center;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-}
-
-.overview {
-  font-weight:lighter !important;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-  margin-left: 90px;
-  margin-top: 25px;
-  margin-right: 90px;
-}
-
-
-
-.projectBox {
-  padding: 25px;
-}
-
-.project {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 50px;
-  margin-left: 90px;
-  margin-top: 25px;
-  margin-right: 90px;
-}
-
-.experienceBox {
-  padding: 25px;
-  color: #9198a1;
-}
-
-.experience {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 50px;
-  margin-left: 90px;
-  margin-top: 25px;
-  margin-right: 90px;
-}
-
-.contactBox {
-  padding: 25px;
-}
-
-.infoBox {
-  border: 1px solid #9198a1;
-  border-radius: 5px;
-  padding: 15px;
-  color: #9198a1;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-}
-
-.contact {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-  margin-left: 90px;
-  margin-top: 25px;
-  margin-right: 90px;
-}
-
-.educationBox {
-  padding: 25px;
-}
-
-.educationBoxText {
-  color: #9198a1 !important;
-}
-
-.education {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 50px;
-  margin-left: 90px;
-  margin-top: 25px;
-  margin-right: 90px;
-}
-
-.projectExample {
-  display: flex;
-  height: 90px;
-  width: 106%;
-  margin-left: -6%;
-  border: 1px solid #9198a1;
-  border-radius: 5px;
-  padding: 10px;
-  color: white;
-  margin-bottom: 25px;
-  flex-direction: column;
-}
-
-#nameHeader {
-  font-size: 22px;
-  font-weight: normal;
-  color:#80868f !important;
-}
-
-#aboutMe {
-  color: #80868f !important;
-}
-
-a:link, a:visited, a:hover, a:active {
-  color: #4493f8;
-  text-decoration: none;
-}
-
-
-#mainLogo {
-  width: 80%;
-  height: auto;
-  margin-left: 10%;
-  justify-content: center;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-}
-
-.overviewCollum {
-  padding: 25px;
-}
-
-hr {
-  border-color: #9198a1;
-}
-
-.education {
-  color: white;
-  font-weight:lighter !important;
-}
-
-.experience {
-  color: white;
-  font-weight:lighter !important;
-}
-
-.project {
-  color: white;
-  font-weight:lighter !important;
-}
-
-.contact {
-  color: white;
-  font-weight:lighter !important;
-}
-
-/* #gitLogo {
-  height: 31.5px;
-  width: auto;;
-  position: absolute;
-  margin-top: 15px;
-  margin-left: 28.5px;
-} */
-
-#miniLogo {
-  margin-left: auto;
-  border-radius: 50%;
-  margin-top: 15px;
-  margin-right: 15px;
-  height: 40px;
-  width: auto;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-}
-
-.navBtn {
-  display: flex;
-  height: 35px;
-  justify-content:center;
-  text-align: center;
-  align-items: center;
-  margin-top: 65px;
-  margin-right: 20x;
-  margin-left: 20px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  background-color: black;
-  color: white;
-  border-top: 0px solid black;
-  border-left: 0px solid black;
-  border-right: 0px solid black;
-  border-bottom: 0px solid black;
-}
-
-.active {
-  font-weight: bold;
-  border-bottom: 3px solid #f78166 !important;
-}
-
-.leftMost {
-  margin-left: 20px;
-}
-
-#navName {
-  position: absolute;
-  margin-left: 75px;
-  margin-top: 22.875px;
-  font-size: 90%;
-  font-weight: bold;
-}
-
-#gitLogo {
-  height: 31.5px;
-  width: auto;;
-  position: absolute;
-  margin-top: 15px;
-  margin-left: 28.5px;
-}
-
-.NavBar {
-  display: flex;
-  width: 100%;
-  height: 100px;
-  background-color: black !important;
-  color: white;
-  border-bottom: 2px solid #3d444d;
+@media (max-width: 475px){
+  .aboutBox {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
