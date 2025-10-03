@@ -1,5 +1,7 @@
 import './App.css';
 import { useState } from 'react';
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
 function App() {
   const [page, setPage] = useState(0);
 
