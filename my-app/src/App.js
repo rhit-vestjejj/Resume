@@ -304,6 +304,7 @@ function App() {
 
   return (
     <div className="App">
+      <SpeedInsights/>
       <header className="App-header">
         {page === 0 && <Overview />}
         {page === 1 && <Education />}
